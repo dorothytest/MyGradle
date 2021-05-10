@@ -9,4 +9,9 @@ public class AppTest2 {
     public void testShouldBePassed() {
         assertTrue(true);
     }
+
+    @Test
+    public void testAnotherClass() {
+        TestClass.testMethod();
+    }
 }
